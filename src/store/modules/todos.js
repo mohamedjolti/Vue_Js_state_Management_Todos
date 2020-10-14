@@ -56,6 +56,8 @@ const actions={
 
 };
 
+ 
+
 const mutations={
   setTodos:(state,todos)=>(state.todos=todos),
   newTodo:(state,todo)=>state.todos.unshift(todo),
